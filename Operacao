@@ -56,15 +56,15 @@ public class Operacao {
         System.out.println("Resposta:" + (n1*p1) + (n2*p2) / (p1+p2));
     }
     
-    void factorial(int n){
+    void factorial(int a){
         
-        int cont = 1;
-        int r = 1;
+        int aux = 1;
+        int res = 1;
         
-        while(cont <= n){
-            r = r * cont;
+        while(aux <= a){
+            r = r * aux;
             cont++;
         }
-        System.out.println("Resposta:" + r);
+        System.out.println("Resposta:" + res);
     }
 }	 	  	  		  	    	     	   	     	        	 	
