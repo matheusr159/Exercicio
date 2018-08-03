@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Main{
 
     public static void main(String[] args){
+     
         Operacao operacao = new Operacao();
         Scanner input = new Scanner(System.in);
         
@@ -15,7 +16,6 @@ public class Main{
         operacao.divisao();
         operacao.multiplicacao();
         
-        //Média Ponderada
         double n1,n2,p1,p2;
         System.out.println("MEDIA PONDERADA");
         System.out.println("Digite o primeiro numero:");
@@ -28,7 +28,6 @@ public class Main{
         p2 = input.nextInt(); 
         operacao.mediaPonderada(n1, n2, p1, p2);
         
-        //Factorial
         int n;
         System.out.println("FACTORIAL");
         System.out.println("Digite um numero inteiro:");
