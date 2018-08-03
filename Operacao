@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Operacao {
     
-    int resposta;
+    int resposta = 0;
     int n1 = 0;
     int n2 = 0;
     
